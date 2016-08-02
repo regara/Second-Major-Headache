@@ -1,5 +1,6 @@
 $(document).ready(function create () {
 //needs at least 1 "img/jpg/a (i).jpg" put into array or wont work
+//I had to rename all my imgs to "a" the numbers were generated automatically
 	var imageArray = ["img/jpg/a (1).jpg", "img/jpg/a (2).jpg", "img/jpg/a (3).jpg", "img/jpg/a (4).jpg"];
 	
 	var i = 5 // 5 comes after (4)in the above array
