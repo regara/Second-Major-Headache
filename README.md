@@ -1,9 +1,6 @@
 # Second-Major-Headache
-Take a folder locally and append all images from it
+Take a folder full of imgs select all imgs and name them the same thing
 
+those imgs get turned into an array and the src becomes "name (i)"
 
-it takes an array of img src from a "string"
-
-it needs at least 1 real img src put into the array or it wont retreive anything
-
-I'll edit this later for a better explination.
+then the imgs get shuffles and appended to the webpage with a button that can shuffle them too.
