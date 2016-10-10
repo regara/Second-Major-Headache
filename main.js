@@ -8,16 +8,16 @@
 
 		//collects all imgs from folder and makes them into an array
 	while(i<=710){ // i stops at # of imgs in folder
-		imageArray.push("img/jpg/a ("+i+").jpg"); // named all imgs in folder to 'a' it auto added ' (i)'
+		imageArray.push("img/jpg/a ("+i+").jpg"); // named all imgs in folder to 'a' it auto adds ' (i)'
 		i++;
 	}
 		//creates the <img> tag and adds a src = to the array[i]
-	for(var i=0; i<710;i++){ // i stops at # of imgs in folder -1 cause it's now an array
+	for(var i=1; i<=710;i++){ // i stops at # of imgs in folder because it's now an array
 		var $imgSrc = $('<img src="'+imageArray[i]+'"></img>');
 		shuffledArray.push($imgSrc); 
 	}
 
-		//this is to randomize the layout each time
+		//this is to randomize the img order each time
 	function shuffleArray(array) {
 	    for (var i = array.length - 1; i > 0; i--) {
 	        var j = Math.floor(Math.random() * (i + 1));
